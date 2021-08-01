@@ -26,6 +26,7 @@ body
 .navbar-brand {
     font-size: 100% !important;
 }
+
 /* 
 .row {
     display: flex;
@@ -49,13 +50,14 @@ body
     padding-right: 2em;
  } 
 
-  
+
 
 
 .about{
     padding-left: 1em;
 
 }
+
 
 .foottext{
     padding-top: 1em;
@@ -91,13 +93,15 @@ footer a:active{
 }
 
 @media only screen and (max-width: 768px) {
-    .center {
+  .center{
         align-items: center;
         justify-content: center;
         padding: 2em;
         
-        
      } 
+
+    
+    
      
      .column {
         padding: .5em;
