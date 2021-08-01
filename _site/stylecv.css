@@ -146,10 +146,13 @@ h1 {
 }
 
 
-body,h2,h3,h4,ul,li,section,p,a,.container,.apaFormat,td,table,tr {
-    font-size : 95%;
+body,h2,h3,h4,ul,li,section,p,a,.container,.apaFormat,td,table,.table,tr {
+    font-size : 91%;
 }
 
+h1,h2,h3,h4,a {
+  color: #000000 !important;
+}
 
 #headerWrapper
 {
@@ -168,10 +171,6 @@ footer
 
 .dropdown, .button, .menu {
   display: none;
-}
-
-h1,h2,h3,h4,a {
-    color: #000000 !important;
 }
 
 }
