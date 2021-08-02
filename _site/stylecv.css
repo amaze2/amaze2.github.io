@@ -145,7 +145,7 @@ footer a:hover
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   
-  .button {width: 10%;
+  .button {width: 12%;
     font-size: 70%;}
 
 }
