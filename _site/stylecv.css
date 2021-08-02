@@ -35,6 +35,7 @@ body
    
 }
 
+
 h1,h2,h3,h4 {
     color: #2f3691;
 }
@@ -70,13 +71,6 @@ li{
     padding-bottom: .5rem;
 }
 
-.foottext {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 15%;
-    padding-right: 1em;
-    
-}
 
 .dropdown, .button {
   position: fixed;
@@ -88,16 +82,30 @@ li{
   font-family: Raleway;
 }
 
-.foot{
-    padding-top: 5em;
-}
-
 footer
 {
   background-color : #6e56a7;
   color            : #fafafa;
+  padding: 2em;
 }
 
+footer .column
+{
+  display         : flex;
+  justify-content : center;
+  align-content   : center;
+}
+
+footer p
+{
+  margin-bottom : 0;
+}
+
+footer .icons
+{
+  display    : flex;
+  align-self : center;
+}
 
 
 footer a:link
@@ -114,17 +122,35 @@ footer a:active{
   color: plum;
 }
 
-@media only screen and (max-width: 768px) {
+footer a:hover
+{
+  opacity : 0.5;
+}
 
-    body {font-size: 70%;}
+
+@media only screen and (max-width: 990px) {
+  
+  body {font-size: 70%;}
     h1 {font-size: 23px;}
     h2 {font-size: 20px;}
     h3 {font-size: 17px;}
     h4 {font-size: 14px;}
-    .button {width: 12%;
-    font-size: 75%;
-  padding: .5em;}
+
+  footer .icons{flex-direction : column;}
+
+  .button {width: 10%;}
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+  .button {width: 10%;
+    font-size: 70%;
+  padding: .25em;}
+
+}
+
 
 @media print
 {
