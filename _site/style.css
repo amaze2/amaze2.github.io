@@ -1,24 +1,19 @@
-body
-{
+body {
   font-family : "Raleway", sans-serif;
   font-size: 23px;
-
-
 }
 
-#headerWrapper
-{
+#headerWrapper {
   border-top       : solid 2px #494e8e;
   border-bottom    : solid 2px #494e8e;
 }
 
-#headerWrapper header
-{
+#headerWrapper header {
   padding: 1em;
   min-height: 4em;
   margin: auto;
-
 }
+
 .navbar-brand {
   font-size: 100% !important;
 }
@@ -95,46 +90,37 @@ footer a:hover
 @media only screen and (max-width: 990px) {
   
   
+  html, body, .container {
+  
+    max-width: 100%;
+  }
+
   #center {
     padding-top: 3em;
     padding-bottom: 3em;
-
+    display: flex;
+    flex-direction: column;
   }
 
   #about {
     padding-top: 3em;
   }
 
-  .container {
-    max-width: 95%;
-  }
 
   footer .icons
   {
-    flex-direction : column;
+    flex-direction: column;
   }
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   
   html, p, .navbar-brand, .btn {
     font-size: 90% !important;
   }
 
-  #center {
-    padding-top: 3em;
-    padding-bottom: 3em;
-
-  }
-
-  #about {
-    padding-top: 2em;
-  }
-
-  .container {
-    max-width: 95%;
-  }
+ 
 
 }
 
