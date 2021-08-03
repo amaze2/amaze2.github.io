@@ -3,6 +3,7 @@ body {
   font-size: 23px;
 }
 
+
 #headerWrapper {
   border-top       : solid 2px #494e8e;
   border-bottom    : solid 2px #494e8e;
@@ -22,8 +23,16 @@ body {
     font-size: 100%;
 }
 
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
 .container {
   max-width: 90%;
+  flex: 1;
 }
 
 #center {
@@ -87,18 +96,6 @@ footer a:hover
 }
 
 
-@media only screen and (min-width: 1200px) {
-  .site {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  
-  .container {
-    flex: 1;
-  }
-
-}
 
 @media only screen and (max-width: 990px) {
   
