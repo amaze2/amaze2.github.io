@@ -97,7 +97,7 @@ footer a:hover
 
 
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
   
   
   html, body, .container {
@@ -108,7 +108,6 @@ footer a:hover
   #center {
     padding-top: 3em;
     padding-bottom: 3em;
-    display: flex;
     flex-direction: column;
   }
 
