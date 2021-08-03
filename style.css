@@ -47,9 +47,10 @@ body
 
 footer
 {
-  background-color : #6e56a7;
-  color            : #fafafa;
+  background-color: #6e56a7;
+  color: #fafafa;
   padding: 2em;
+  font-family: "open sans", sans-serif;
 }
 
 footer .column
