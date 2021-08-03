@@ -1,0 +1,120 @@
+
+
+#headerWrapper
+{
+  border-top       : solid 2px #494e8e;
+  border-bottom    : solid 2px #494e8e;
+}
+
+#headerWrapper header
+
+{
+    font-family : "Raleway", sans-serif;
+  padding: 1em;
+  min-height: 4em;
+  margin: auto;
+    font-size: 23px;
+
+}
+.navbar-brand {
+  font-size: 100% !important;
+}
+
+.btn {
+    font-size: 100%;
+}
+
+main {
+  max-width: 90%;
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+
+
+h1, h2 {
+    text-align: center;
+    font-family : "Raleway", sans-serif;
+}
+
+.card {
+    margin: 1em;
+}
+footer
+{
+  background-color: #6e56a7;
+  color: #fafafa;
+  padding: 2em;
+  font-family: "open sans", sans-serif;
+  font-size: 23px;
+}
+
+footer .column
+{
+  display         : flex;
+  justify-content : center;
+  align-content   : center;
+}
+
+footer p
+{
+  margin-bottom : 0;
+}
+
+footer .icons
+{
+  display    : flex;
+  align-self : center;
+}
+
+
+footer a:link
+{
+  color : #b8e5f7;
+}
+
+footer a:visited
+{
+  color : #ddddec;
+}
+
+footer a:active{
+  color: plum;
+}
+
+footer a:hover
+{
+  opacity : 0.5;
+}
+
+
+@media only screen and (max-width: 990px) {
+  
+  
+
+
+  .container {
+    max-width: 95%;
+   
+  }
+
+  footer .icons
+  {
+    flex-direction : column;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  html, p, .navbar-brand, .btn {
+    font-size: 90% !important;
+  }
+
+
+  .container {
+    max-width: 95%;
+  }
+
+}
+
