@@ -21,6 +21,8 @@
 .btn {
     font-size: 100%;
 }
+
+
 .site {
   display: flex;
   min-height: 100vh;
@@ -30,10 +32,8 @@
 .site-content {
   max-width: 90%;
   flex: 1;
-}
-
-main {
-
+  align-items: center;
+  justify-content: center;
   padding-top: 5em;
   padding-bottom: 5em;
   font-family: 'IBM Plex Sans', sans-serif;

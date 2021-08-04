@@ -1,12 +1,16 @@
-#headerWrapper
-{
+body{
+  
+  font-size: 23px;
+
+}
+
+
+#headerWrapper{
   border-top       : solid 2px #494e8e;
   border-bottom    : solid 2px #494e8e;
 }
 
-#headerWrapper header
-
-{
+#headerWrapper header{
     font-family : "Raleway", sans-serif;
   padding: 1em;
   min-height: 4em;
@@ -34,8 +38,16 @@ h1 {
     padding-bottom: 1em;
 }
 
+
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  
 .container {
     max-width: 90%;
+    flex: 1;
 }
 
 
