@@ -21,35 +21,21 @@
 .btn {
     font-size: 100%;
 }
-.site {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-.site-content {
-  max-width: 90%;
-  flex: 1;
-}
 
 main {
 
   padding-top: 5em;
   padding-bottom: 5em;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
-
-
 
 h1 {
     text-align: center;
-    
     padding-bottom: 1em;
 }
 
-
-.card {
-    margin: 1em;
+.container {
+    max-width: 90%;
 }
 
 
@@ -60,7 +46,6 @@ footer
   padding: 2em;
   font-family: "open sans", sans-serif;
   font-size: 23px;
-  margin-top: 6em;
 }
 
 footer .column
@@ -104,6 +89,15 @@ footer a:hover
 
 @media only screen and (max-width: 990px) {
   
+.center {
+    margin: auto;
+}
+
+img {
+    padding-bottom: 3em;
+}
+
+
   footer .icons
   {
     flex-direction : column;
@@ -111,14 +105,13 @@ footer a:hover
 }
 
 
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   
   footer {
     font-size: 90%;
   }
 
 
+  
+
 }
-
-

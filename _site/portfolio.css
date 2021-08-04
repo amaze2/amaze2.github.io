@@ -104,9 +104,6 @@ footer a:hover
 
 @media only screen and (max-width: 990px) {
   
-
-
-
   footer .icons
   {
     flex-direction : column;
@@ -114,14 +111,14 @@ footer a:hover
 }
 
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 600px) {
   
-  html, p, .navbar-brand, .btn {
-    font-size: 90% !important;
+  footer {
+    font-size: 90%;
   }
 
 
-  
-
 }
+
 
