@@ -149,7 +149,7 @@ footer a:hover
 
 @media only screen and (max-width: 768px) {
   
-  .dropdown, .button, .menu {
+  .dropdown, .button, .icon, .menu {
     display: none;
   }
 
