@@ -111,18 +111,20 @@ footer a:hover
     flex-direction : column;
   }
 
-.site-content, .h5, .card-body, footer {
-  
+.site-content, .h5, .card-body {
     font-size: 80% !important;
   }
 
+  footer{
+    font-size: 90% ;
+  }
 
 }
 
 
   @media only screen and (max-width: 600px) {
   
-    html, p, .navbar-brand, .btn, footer {
+    html, p, .navbar-brand, .btn {
       font-size: 90% !important;
     }
   
