@@ -155,8 +155,9 @@ footer a:hover
 @media only screen and (max-width: 600px) {
   
 
-  .button {
-    font-size: 45% !important;}
+  .dropdown, .button, .menu {
+    display: none;
+  }
   
    .navbar-brand, .btn, footer {
       font-size: 90%;
