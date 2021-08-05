@@ -142,8 +142,7 @@ footer a:hover
   footer .icons{flex-direction : column;}
 
   .button {
-    width: 11% !important;
-  font-size: 75% !important;
+    width: 11%;
 }
 }
 
