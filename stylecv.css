@@ -87,6 +87,7 @@ footer
   background-color: #6e56a7;
   color: #fafafa;
   padding: 2em;
+  font-family: 'Open Sans', sans-serif !important;
   
 }
 
@@ -100,7 +101,7 @@ footer .column
 footer p
 {
   margin-bottom : 0;
-  font-family: "open sans", sans-serif !important;
+  
 }
 
 footer .icons

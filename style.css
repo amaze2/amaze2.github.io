@@ -54,7 +54,7 @@ footer
   background-color: #6e56a7;
   color: #fafafa;
   padding: 2em;
-  font-family: "open sans", sans-serif;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
 footer .column
@@ -67,6 +67,7 @@ footer .column
 footer p
 {
   margin-bottom : 0;
+
 }
 
 footer .icons
@@ -118,13 +119,15 @@ footer a:hover
   }
 }
 
+
 @media only screen and (max-width: 768px) {
 
- .container {
-    max-width: 95%;
-   }
-  
-}
+  .container {
+     max-width: 95%;
+    }
+   
+ }
+
 
 @media only screen and (max-width: 600px) {
   
