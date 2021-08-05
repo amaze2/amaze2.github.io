@@ -141,23 +141,24 @@ footer a:hover
 
   footer .icons{flex-direction : column;}
 
-  .button {width: 11% !important;
-  font-size: 75% !important;}
+  .button {
+    width: 11% !important;
+  font-size: 75% !important;
+}
 }
 
 @media only screen and (max-width: 768px) {
   
-  .button {width: 11% !important;
-    font-size: 70% !important;}
+  .dropdown, .button, .menu {
+    display: none;
+  }
 
 }
 
 @media only screen and (max-width: 600px) {
   
 
-  .dropdown, .button, .menu {
-    display: none;
-  }
+
   
    .navbar-brand, .btn, footer {
       font-size: 90%;
