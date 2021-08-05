@@ -27,7 +27,7 @@ body
 .navbar-brand {
     font-size: 100% !important;
 }
-
+article {padding-bottom: 5em;}
 
 .container {
     font-family : "Montserrat", sans-serif;
