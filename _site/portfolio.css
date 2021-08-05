@@ -124,7 +124,7 @@ footer a:hover
 
   @media only screen and (max-width: 600px) {
   
-    html, p, .navbar-brand, .btn {
+   .navbar-brand, .btn {
       font-size: 90% !important;
     }
   
