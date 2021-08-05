@@ -157,8 +157,8 @@ footer a:hover
 @media only screen and (max-width: 600px) {
   
 
-body {
-  width: 100%;
+html, body {
+  width:auto;
 }
   
    .navbar-brand, .btn, footer {
