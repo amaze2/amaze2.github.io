@@ -1,3 +1,8 @@
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 23px;
+}
+
 #headerWrapper
 {
   border-top       : solid 2px #494e8e;
@@ -11,7 +16,6 @@
   padding: 1em;
   min-height: 4em;
   margin: auto;
-    font-size: 23px;
 
 }
 .navbar-brand {
@@ -36,7 +40,6 @@
   justify-content: center;
   padding-top: 5em;
   padding-bottom: 5em;
-  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 
@@ -59,7 +62,6 @@ footer
   color: #fafafa;
   padding: 2em;
   font-family: "open sans", sans-serif;
-  font-size: 23px;
   margin-top: 6em;
 }
 
@@ -102,12 +104,19 @@ footer a:hover
 }
 
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
   
   footer .icons
   {
     flex-direction : column;
   }
+
+.site-content, .h5, .card-body, footer {
+  
+    font-size: 80% !important;
+  }
+
+
 }
 
 
@@ -119,5 +128,3 @@ footer a:hover
   
 
 }
-
-

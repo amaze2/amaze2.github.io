@@ -99,31 +99,28 @@ footer a:hover
 }
 
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
   
-.center {
-    margin: auto;
-}
+  .center {
+      margin: auto;
+  }
 
-img {
-    padding-bottom: 3em;
-}
-
+  img {
+      padding-bottom: 3em;
+  }
 
   footer .icons
   {
     flex-direction : column;
   }
+
 }
 
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   
-  footer {
-    font-size: 90%;
+  html, p, .navbar-brand, .btn, footer {
+    font-size: 90% !important;
   }
 
-
-  
 
 }

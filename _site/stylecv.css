@@ -130,9 +130,9 @@ footer a:hover
 }
 
 
-@media only screen and (max-width: 990px) {
+@media only screen and (max-width: 992px) {
   
-  body {font-size: 70%;}
+  .container {font-size: 70%;}
     h1 {font-size: 23px;}
     h2 {font-size: 20px;}
     h3 {font-size: 17px;}
@@ -140,27 +140,32 @@ footer a:hover
 
   footer .icons{flex-direction : column;}
 
-  .button {width: 11%;
-    font-size: 85%;}
+  .button {width: 11% !important;
+  font-size: 75% !important;}
 }
 
 @media only screen and (max-width: 768px) {
   
-  footer {
-    font-size: 90%;
-  }
-
-
-  
+  .button {width: 11% !important;
+    font-size: 70% !important;}
 
 }
 
 @media only screen and (max-width: 600px) {
   
+
   .button {
-    font-size: 65%;}
+    font-size: 45% !important;}
+  
+   .navbar-brand, .btn, footer {
+      font-size: 90%;
+    }
+
+
 
 }
+
+
 
 
 @media print
