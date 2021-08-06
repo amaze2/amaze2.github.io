@@ -131,7 +131,7 @@ footer a:hover
   opacity : 0.5;
 }
 
-
+/*
 @media only screen and (max-width: 992px) {
   
   .container {font-size: 70%;}
@@ -225,4 +225,5 @@ footer
 
 @page {
     margin: 2cm;
-  }
+  } 
+  */
