@@ -152,6 +152,10 @@ footer a:hover
   h3 {font-size: 14px;}
   h4 {font-size: 11px;}
 
+  .apaFormat li{
+    padding-left: 2rem;
+    text-indent: -2rem;
+}
 
 }
 
@@ -168,6 +172,11 @@ footer a:hover
     h3 {font-size: 12px;}
     h4 {font-size: 9px;}
 
+
+    .apaFormat li{
+      padding-left: 1rem;
+      text-indent: -1rem;
+  }
   }
 
 
@@ -177,10 +186,10 @@ footer a:hover
 {
 
 
-html,body,section,h2,h3,h4,p,a,.container,.apaFormat
+html,body,article,section,h2,h3,h4,p,a,.container,.apaFormat
 {
 
-  width: 100%;
+  width: 100% !important;
   padding-left: 0;
   padding-right: 0;
   margin-left: 0;
@@ -210,6 +219,10 @@ section {
     break-inside:avoid;
 }
 
+.apaFormat li{
+  padding-left: 2rem;
+  text-indent: -2rem;
+}
 
 footer
 {
