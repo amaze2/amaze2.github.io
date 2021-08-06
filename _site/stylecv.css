@@ -131,7 +131,7 @@ footer a:hover
   opacity : 0.5;
 }
 
-/*
+
 @media only screen and (max-width: 992px) {
   
   .container {font-size: 70%;}
@@ -163,7 +163,7 @@ footer a:hover
 
 
   
-   .navbar-brand, .btn, footer {
+  html, .content, .navbar-brand, .btn, footer {
       font-size: 90% !important;
     }
 
@@ -226,4 +226,3 @@ footer
 @page {
     margin: 2cm;
   } 
-  */
