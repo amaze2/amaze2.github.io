@@ -1,6 +1,6 @@
 body {
   font-family : "Raleway", sans-serif;
-  font-size: 23px;
+
 }
 
 #headerWrapper
@@ -12,7 +12,7 @@ body {
 #headerWrapper header
 
 {
-    
+  font-size: 23px;
   padding: 1em;
   min-height: 4em;
   margin: auto;
@@ -34,7 +34,7 @@ body {
 }
 
 .site-content {
-  max-width: 90%;
+  
   flex: 1;
   align-items: center;
   justify-content: center;
@@ -53,6 +53,10 @@ h1 {
 
 .card {
     margin: 1em;
+}
+
+.text-subtitle {
+  color: #777777;
 }
 
 
