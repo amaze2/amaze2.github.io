@@ -160,13 +160,12 @@ footer a:hover
 
 @media only screen and (max-width: 600px) {
   
-
-
-  
-  html, .content, .navbar-brand, .btn, footer {
-      font-size: 87% !important;
+  html, .container, .navbar-brand, .btn, footer {
+      font-size: 90% !important;
+      
     }
 
+  /*.container {width: 75%;}  */
 
 
 }
