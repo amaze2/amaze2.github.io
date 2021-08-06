@@ -109,20 +109,16 @@ footer a:hover
 }
 
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 768px) {
   
   footer .icons
   {
     flex-direction : column;
   }
 
-.site-content, .h5, .card-body {
-    font-size: 80% !important;
-  }
 
-  footer{
-    font-size: 90% ;
-  }
+
+
 
 }
 

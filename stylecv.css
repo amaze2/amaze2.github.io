@@ -21,7 +21,7 @@
 }
 
 article {padding-bottom: 5em;
-  font-size: 23px;
+  font-size: 2vw;
   font-family : "Montserrat", sans-serif;
   width: 80% !important;
   }
@@ -127,11 +127,11 @@ footer a:hover
 
 @media only screen and (max-width: 992px) {
   
-  .container {font-size: 70%;}
-    h1 {font-size: 23px;}
-    h2 {font-size: 20px;}
-    h3 {font-size: 17px;}
-    h4 {font-size: 14px;}
+  h1 {font-size: 23px;}
+  h2 {font-size: 20px;}
+  h3 {font-size: 17px;}
+  h4 {font-size: 14px;}
+
 
   footer .icons{flex-direction : column;}
 
@@ -147,25 +147,28 @@ footer a:hover
     display: none;
   }
 
- 
+  h1 {font-size: 20px;}
+  h2 {font-size: 17px;}
+  h3 {font-size: 14px;}
+  h4 {font-size: 11px;}
+
 
 }
 
-/* 
+
 @media only screen and (max-width: 600px) {
-  
-  html, .navbar-brand, .btn, footer {
-      font-size: 90% !important;
-      
-    } 
-    .navbar-brand, .btn {
+
+  .navbar-brand, .btn {
       font-size: 90% !important;
       
     }
 
-} 
+    h1 {font-size: 18px;}
+    h2 {font-size: 14px;}
+    h3 {font-size: 12px;}
+    h4 {font-size: 9px;}
 
-*/
+  }
 
 
 
