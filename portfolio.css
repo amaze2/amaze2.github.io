@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family : "Raleway", sans-serif;
   font-size: 23px;
 }
 
@@ -12,7 +12,7 @@ body {
 #headerWrapper header
 
 {
-    font-family : "Raleway", sans-serif;
+    
   padding: 1em;
   min-height: 4em;
   margin: auto;
