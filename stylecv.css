@@ -166,7 +166,9 @@ footer a:hover
     h3 {font-size: 18px;}
     h4 {font-size: 15px;}
 
-    article {font-size: 90%;}
+    article {font-size: 90%;
+    width: 100%;
+    align-items: center;}
 
 
     .apaFormat li{
