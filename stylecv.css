@@ -21,7 +21,7 @@
 }
 
 article {padding-bottom: 5em;
-  font-size: 2vw;
+  font-size: 23px;
   font-family : "Montserrat", sans-serif;
   width: 80% !important;
   }
@@ -127,10 +127,7 @@ footer a:hover
 
 @media only screen and (max-width: 992px) {
   
-  h1 {font-size: 23px;}
-  h2 {font-size: 20px;}
-  h3 {font-size: 17px;}
-  h4 {font-size: 14px;}
+
 
 
   footer .icons{flex-direction : column;}
@@ -147,10 +144,7 @@ footer a:hover
     display: none;
   }
 
-  h1 {font-size: 20px;}
-  h2 {font-size: 17px;}
-  h3 {font-size: 14px;}
-  h4 {font-size: 11px;}
+
 
   .apaFormat li{
     padding-left: 2rem;
@@ -167,10 +161,12 @@ footer a:hover
       
     }
 
-    h1 {font-size: 18px;}
-    h2 {font-size: 14px;}
-    h3 {font-size: 12px;}
-    h4 {font-size: 9px;}
+    h1 {font-size: 30px;}
+    h2 {font-size: 20px;}
+    h3 {font-size: 18px;}
+    h4 {font-size: 15px;}
+
+    article {font-size: 90%;}
 
 
     .apaFormat li{
